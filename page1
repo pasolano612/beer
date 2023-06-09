@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda de Cerveza Artesanal</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav ul li a:hover {
+      background-color: #ddd;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .product {
+      display: inline-block;
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    .product img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda de Cerveza Artesanal</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Tienda</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Nuestros productos</h2>
+
+    <div class="product">
+      <img src="cerveza1.jpg" alt="Cerveza 1">
+      <h3>Cerveza Artesanal 1</h3>
+      <p>Descripción de la cerveza 1</p>
+      <p>Precio: $10.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+      <img src="cerveza2.jpg" alt="Cerveza 2">
+      <h3>Cerveza Artesanal 2</h3>
+      <p>Descripción de la cerveza 2</p>
+      <p>Precio: $12.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+      <img src="cerveza3.jpg" alt="Cerveza 3">
+      <h3>Cerveza Artesanal 3</h3>
+      <p>Descripción de la cerveza 3</p>
+      <p>Precio: $15.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Tienda de Cerveza Artesanal. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
